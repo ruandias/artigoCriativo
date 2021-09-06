@@ -1,84 +1,248 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Muito Obrigado</title>
-
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-
-
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
-    <!-- CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css" rel="stylesheet">
-    <link rel="stylesheet" media="screen" href="./css/style.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Artigo Criativo</title>
 </head>
 
 <body>
-    <div class="main">
-        <div class="container">
-            <div class="col-md-12">
-                <div class="logo-img"><img src="images/logo.png" alt=" logo" width="100">
-                </div>
-                <div class="headline">
-                    Muito Obrigado pela sua compra!
-                </div>
-                <!--/headline -->
-                <h3 class="subheadline">Nós acabamos de enviar o email com detalhes da sua compra.
-                </h3>
-                <!-- Subheadline -->
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>A</span>rtigo <span>C</span>riativo</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Página Inicial</a></li>
+            <li><a href="#services" data-after="Service">Nossos Serviços</a></li>
+            <li><a href="#projects" data-after="Projects">Projetos</a></li>
+            <li><a href="#about" data-after="About">Sobre nós</a></li>
+            <li><a href="#contact" data-after="Contact">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-                <!--/col-md-12 -->
-                <hr>
-                <div>
-                    <h4 class="how"><b>Passo a Passo:</b></h4>
-                </div>
-                <ul>
-                    <li><i class="fa fa-circle" aria-hidden="true"></i><strong> Passo 1:</strong>
-                    </li>
-                    <li class="directions">Dar mais uma olhadinha em nossa <strong><a href="https://www.artigocriativo.com.br/">loja</a>.</strong>
-                    </li>
-                    <li><i class="fa fa-circle" aria-hidden="true"></i><strong> Passo 2:</strong>
-                    </li>
-                    <li id="item-2" class="directions">Verificar sua caixa de email e o seu <strong>lixo eletrônico</strong></li>
-                </ul>
-            </div> <!-- col-md-12 -->
-        </div><!-- /container -->
 
-        <div class="footer">
-            Artigo Criativo © 2020
-        </div><!-- /footer -->
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Olá, seja <span></span></h1>
+        <h1>bem vindo à<span></span></h1>
+        <h1>Artigo Criativo<span></span></h1>
+        <a href="#projects" type="button" class="cta">Veja um pouco do nosso trampo</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
 
-    </div><!-- /main -->
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ços</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
+          magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
+          voluptatum explicabo!</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Serviço 01</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Serviço 02</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Serviço 03</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Serviço 04</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
 
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Projetos <span>Recentes</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">Sobre <span>nós</span></h1>
+        <h2>Somos amiguinhos de infância</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
+          repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
+          exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
+          Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt
+          reprehenderit libero enim!</p>
+        <a href="#" class="cta">Baixa aqui algo legal pra tu</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Nosso <span>contato</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>21971994581</h2>
+            <h2>21938120930</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>ruan_ndias@hotmail.com</h2>
+            <h2>artigocriativo@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Rua Projetada Vila dos Netinhos</h1>
+            <h2>Magé - RJ</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>A</span>rtigo <span>C</span>riativo</h1>
+      </div>
+      <h2>Acompanhe a gente nas redes sociais</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2021</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
 
 </html>
